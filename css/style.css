@@ -1,0 +1,59 @@
+* {
+    direction: rtl;
+    color: white;
+    margin: 0!important;
+    padding: 0!important;
+}
+.nav-site {
+    min-width: 100%;
+    max-width: 100%;
+}
+.nav-head {
+    background-color: #cc0000;
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 40px;
+    max-height: 40px;
+    padding-top: 10px!important;
+    padding-bottom: 10px!important;
+    text-align: center;
+}
+.tabs-site {
+    background-color: #80dfff;
+    color: black!important;
+    text-align: center;
+    text-decoration: none;
+    padding: 10px!important;
+}
+.tab {
+    padding-bottom: 10px;
+    min-width: calc(95%/4);
+    max-width: calc(95%/4);
+    margin-left: 1%!important;
+}
+.tab a {
+    min-height: 50px;
+    max-height: 50px;
+    padding-top: 10px;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+.class {
+    background-color: #cc0000;
+    text-align: center;
+    margin-bottom: 10px!important;
+    margin-left: 2%!important;
+    margin-right: 2%!important;
+    border-radius: 20%;
+}\
+.books {
+    background-color: white;
+    color: black!important;
+}
+.not-available {
+    text-align: center;
+    padding-top: 50%!important;
+    padding-bottom: 50%!important;
+}
