@@ -460,12 +460,11 @@
     </div>
     <div class="tab-pane fade" id="tab4">
       <div class="alert alert-info" role="alert">
-        <strong>تحوي هذه التبويبة جميع أخبار الموقع بما فيها الكتب الجديدة والتي تم تعديلها</strongتحوي هذه التبويبة جميع أخبار الموقع بما فيها الكتب الجديدة والتي تم تعديلها   </div>
+        <strong class="alert-details">تحوي هذه التبويبة جميع أخبار الموقع بما فيها الكتب الجديدة والتي تم تعديلها</strongتحوي هذه التبويبة جميع أخبار الموقع بما فيها الكتب الجديدة والتي تم تعديلها   </div>
       <script>
         $(".alert").alert();
       </script>
-      </div>div>
-        <p class="not-available">هذه التبويبة قيد التطوير</p>
+      </div>
       </div>
     </div>
     </div>
@@ -474,6 +473,20 @@
     <h2>سهالات</h2>
     <h2>المساهمون</h2`>
     <h2>ارتباطات مهمة</h2>
+    <div class="contactUs">
+    <h2>تواصل معنا</h2>
+    <form class="contacktUs-form" action="db/messages.xlsx">
+      <label for="name">الإسم</label>
+    <input type="text" name="name" id="name">
+      <label for="category">الفئة</label>
+      <select name="category" id="category">
+<option value="شكوى"></option>
+      </select>
+      <label for="messag">الرسالة</label>
+      <textarea name="message" id="message" cols="30" rows="10"></textarea>
+      <input type="submit" value="إرسال">
+  </form>
+  </div>
   </footer>
 </body>
 

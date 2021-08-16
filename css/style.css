@@ -55,10 +55,18 @@ h2 {
     padding-top: 50%!important;
     padding-bottom: 50%!important;
 }
+.alert-details {
+    color: black!important;
+}
 .footer {
     background-color: #00cc99;
     padding: 15px!important;
     text-align: center;
+}
+.contactUs-form {
+    display: inlflex;
+    min-width: 100%;
+    max-width: 100%;
 }
 .newz {
     background-color: red;
