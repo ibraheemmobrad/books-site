@@ -73,12 +73,11 @@ h2 {
 }
 .newz {
     background-color: red;
-    min-width: 80%;
-    max-width: 80%;
+    min-width: 05%;
+    max-width: 95%;
     padding: 15px!important;
-    margin-right: 10px!important    ;
-    margin-left: 10px!important;
+    margin: 3% 2.5%!important;
 }
-.tabe-pane {
+.tab-pane {
     min-height: 300px;
 }
