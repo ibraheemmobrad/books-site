@@ -55,8 +55,14 @@ h2 {
     padding-top: 50%!important;
     padding-bottom: 50%!important;
 }
+.alert-info {
+    padding: 10px!important;
+}
 .alert-details {
     color: black!important;
+}
+.phase .phase-head {
+    margin-bottom: 10px!important;
 }
 .footer {
     background-color: #00cc99;
@@ -79,5 +85,5 @@ h2 {
     margin: 3% 2.5%!important;
 }
 .tab-pane {
-    min-height: 300px;
+    min-height: 500px;
 }
