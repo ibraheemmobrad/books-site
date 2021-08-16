@@ -64,7 +64,10 @@ h2 {
     text-align: center;
 }
 .contactUs-form {
-    display: inlflex;
+    text-align: right!important;
+}
+.contactUs-form label,input,select,textarea {
+    margin-top: 10px;
     min-width: 100%;
     max-width: 100%;
 }
