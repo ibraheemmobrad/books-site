@@ -47,8 +47,10 @@ h2 {
     background-color: white;
 }
 .books li {
-    color: black!important;
     text-align: right;
+}
+.books li a {
+    color: black!important;
 }
 .not-available {
     text-align: center;
