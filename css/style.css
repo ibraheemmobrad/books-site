@@ -52,6 +52,7 @@ h2 {
 }
 .books li a {
   color: black !important;
+  text-decoration: blue;
 }
 .not-available {
   text-align: center;
@@ -72,13 +73,11 @@ h2 {
   padding: 15px !important;
   text-align: center;
 }
-.contactUs-form {
-  text-align: right !important;
-}
 .contactUs-form label,
 input,
 select,
 textarea {
+  text-align: right !important;
   margin-top: 10px;
   min-width: 100%;
   max-width: 100%;
