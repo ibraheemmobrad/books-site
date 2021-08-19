@@ -20,8 +20,8 @@
 }
 .tab {
   padding-bottom: 10px;
-  min-width: calc(96% / 4);
-  max-width: calc(96% / 4);
+  min-width: calc(94%/5);
+  max-width: calc(94%/5);
   margin-right: 1% !important;
 }
 .tab a {
@@ -94,7 +94,7 @@ input,select,textarea {
 .tab-pane {
   min-height: 500px;
 }
-#tab1 .tabs-site .tab {
+#tab1 .tabs-site .tab,#tab2 .tabs-site.tab {
   min-width: calc(97% / 2);
   max-width: calc(97% / 2);
   margin-right: 1% !important;
