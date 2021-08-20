@@ -56,8 +56,7 @@ h2 {
 }
 .not-available {
   text-align: center;
-  padding-top: 50% !important;
-  padding-bottom: 50% !important;
+  padding: 25% 15px!important;
 }
 .alert-info {
   padding: 10px !important;
