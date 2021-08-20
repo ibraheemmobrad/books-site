@@ -12,6 +12,12 @@
   background-color: #cc0000;
   min-width: 100%;
   max-width: 100%;
+  min-height: 20px;
+  max-height: 20px;
+  padding-bottom: 30px!important;
+}
+  .nav-head p {
+  text-align: center;
 }
 .tabs-site {
   background-color: #80dfff;
