@@ -25,8 +25,8 @@
 }
 .tab {
   padding-bottom: 10px;
-  min-width: calc(94%/5);
-  max-width: calc(94%/5);
+  min-width: calc(93%/6);
+  max-width: calc(93%/6);
   margin-right: 1% !important;
 }
 .tab a {
