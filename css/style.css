@@ -4,10 +4,6 @@
   margin: 0 !important;
   padding: 0 !important;
 }
-body {
-  min-width: 100%;
-  max-width: 100%;
-}
 .nav-site {
   min-width: 100%;
   max-width: 100%;
@@ -18,12 +14,9 @@ body {
   background-color: #cc0000;
   min-width: 100%;
   max-width: 100%;
-  min-height: 20px;
-  max-height: 20px;
-  padding-bottom: 30px!important;
 }
   .nav-head p {
-  text-align: center;
+    text-align: center!important;
 }
 .tabs-site {
   background-color: #80dfff;
@@ -94,6 +87,13 @@ textarea {
 }
 input,select,textarea {
   color: black!important;
+}
+.submit {
+  background-color: #cc0000;
+  color: white!important;
+  padding: 15px!important;
+  margin: 10px 0px!important;
+  text-align: center!important;
 }
 .newz {
   background-color: red;
