@@ -4,6 +4,10 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+body {
+  min-width: 100%;
+  max-width: 100%;
+}
 .nav-site {
   min-width: 100%;
   max-width: 100%;
