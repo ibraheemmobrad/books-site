@@ -1,13 +1,13 @@
 * {
   direction: rtl;
   color: white;
-  min-width: 100%;
-  max-width: 100%;
-  overflow: hidden;
   margin: 0 !important;
   padding: 0 !important;
 }
-body {
+*:not(.tabs-site) {
+  min-width: 100%;
+  max-width: 100%;
+  overflow: hidden;
 }
 .nav-site {
   min-width: 100%;
