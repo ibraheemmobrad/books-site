@@ -111,5 +111,5 @@ input,select,textarea {
   margin-right: 1% !important;
 }
 .question {
-  background-image: linear-gradient(rtl,#000,#100000,#300,#4d0000,#600,#800000,#900,#b30000,#c00,#e60000,#f00);
+  background-image: linear-gradient(#000,#100000,#300,#4d0000,#600,#800000,#900,#b30000,#c00,#e60000,#f00);
 }
