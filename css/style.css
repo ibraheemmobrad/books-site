@@ -25,8 +25,8 @@
 }
 .tabs-site {
   background-color: #80dfff;
-  min-width: 300%;
-  overflow: scroll;
+  min-width: 300%!important;
+  overflow: scroll!important;
   text-align: center;
   padding: 10px !important;
 }
