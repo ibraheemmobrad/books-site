@@ -118,3 +118,8 @@ input,select,textarea {
   min-height: 30px;
   max-height: 30px;
 }
+/*start header style foor corses page*/
+.header {
+  padding: 15px 25%!important;
+}
+/*ind header style foor corses page*/
