@@ -24,10 +24,10 @@
   padding: 10px !important;
 }
 .tab {
-  padding-bottom: 10px;
   min-width: calc(92%/7);
   max-width: calc(92%/7);
-  margin-right: 1% !important;
+  margin-right: 1%!important;
+  padding-bottom: 10px!important;
 }
 .tab a {
   color: black !important;
@@ -52,10 +52,10 @@ h2 {
   background-color: white;
   padding: 15px !important;
 }
-.books li {
+.class-content li {
   text-align: right;
 }
-.books li a {
+.class-content li a {
   color: black !important;
   text-decoration: blue;
 }
