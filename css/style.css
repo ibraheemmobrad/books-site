@@ -41,29 +41,28 @@ h2 {
   text-align: center;
 }
 .class {
-  background-color: #cc0000;
   text-align: center;
-  margin-bottom: 10px !important;
-  margin-left: 2% !important;
-  margin-right: 2% !important;
+  margin: 0% 2% 2% 10px!important;
   border-radius: 20%;
+}
+.class summary {
+  background-color: #cc0000;
+  min-height: 30px;
+  max-height: 30px;
 }
 .class-content {
   background-color: white;
   padding: 15px !important;
 }
-.class-content li {
+  .class-content li {
   text-align: right;
-}
-.class-content li a {
-  color: black !important;
-  text-decoration: blue;
 }
 .not-available {
   text-align: center;
   padding: 50% 15px!important;
 }
 .alert-info {
+  position: static;
   padding: 10px !important;
 }
 .alert-details {
@@ -111,10 +110,10 @@ input,select,textarea {
   margin-right: 1% !important;
 }
 .question {
-  margin-bottom: 10px;
+  margin-bottom: 10px!important;
 }
 .question  summary{
-  background-image: linear-gradient(to left,#000,#100000,#300,#4d0000,#600,#800000,#900,#b30000,#c00,#e60000,#f00);
+  background-image: linear-gradient(to left,#000,#1a1300,#332600,#4d3900,#664d00,#806000,#997300,#b38600,#c90,#e6ac00,#ffbf00);
   min-height: 30px;
   max-height: 30px;
 }
