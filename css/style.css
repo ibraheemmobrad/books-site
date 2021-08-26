@@ -93,6 +93,9 @@ input,select,textarea {
   margin: 10px 0px!important;
   text-align: center!important;
 }
+.cobe-right span {
+  color: yellow!important;
+}
 .newz {
   background-color: red;
   min-width: 05%;
