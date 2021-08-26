@@ -1,8 +1,8 @@
 * {
   direction: rtl;
   color: white;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0 ;
 }
 .nav-site {
   width: 100%;
@@ -92,6 +92,9 @@ input,select,textarea {
   padding: 15px!important;
   margin: 10px 0px!important;
   text-align: center!important;
+}
+.cobe-right {
+  display: inline;
 }
 .cobe-right span {
   color: yellow!important;
