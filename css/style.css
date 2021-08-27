@@ -1,6 +1,6 @@
 * {
   direction: rtl;
-  color: whi87te;
+  color: white;
   margin: 0 !important;
   padding: 0 !important;
 }
@@ -22,9 +22,9 @@
   padding: 10px !important;
   text-align: center;
 }
-.nav-item {
+.tab {
   width: calc(95%/4);
-  height: 50%;
+  height: 50px;
   margin-right: 1%!important;
   padding-bottom: 10px!important;
 }
