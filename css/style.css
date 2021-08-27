@@ -22,7 +22,7 @@
   padding: 10px !important;
   text-align: center;
 }
-.tab {
+.nav-item {
   width: calc(95%/4);
   height: 50%;
   margin-right: 1%!important;
@@ -94,7 +94,7 @@ input,select,textarea {
   margin: 10px 0px!important;
   text-align: center!important;
 }
-.cobe-right * {
+.cobe-right *  {
   display: inline;
 }
 .cobe-right span {
