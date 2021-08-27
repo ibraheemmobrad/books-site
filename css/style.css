@@ -23,14 +23,12 @@
   text-align: center;
 }
 .tab {
-  width: calc(95%/4);
-  height: 50px;
+  width: calc(97%/3);
+  height: 50%;
   margin-right: 1%!important;
-  padding-bottom: 10px!important;
 }
 .tab a {
   color: black !important;
-  padding-top: 10px;
   text-align: center;
   text-decoration: none !important;
 }
