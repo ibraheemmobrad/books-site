@@ -4,6 +4,9 @@
   margin: 0 !important;
   padding: 0 !important;
 }
+html {
+  scroll-behavior: smooth;
+}
 .nav-site {
   width: 100%;
   position: sticky;
@@ -65,6 +68,17 @@ h2 {
 }
 .phase .phase-head {
   margin-bottom: 10px !important;
+}
+.goToTob {
+  background-color: orange;
+  height: 20px;
+  width: 50px;
+  margin: 10px!important;
+  padding: 10px!important;
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
 }
 .footer {
   background-color: #00cc99;
