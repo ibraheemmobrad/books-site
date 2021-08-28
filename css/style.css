@@ -88,6 +88,9 @@ h2 {
 .important-links {
   text-align: center;
 }
+.contactUs {
+  display: none;
+}
 .contactUs-form label,
 input,
 select,
@@ -109,7 +112,8 @@ input,select,textarea {
 }
 .cobe-right *  {
   display: inline;
-  font-size: 20px   ;
+  text-align: center!important;
+  font-size: 32px;
 }
 .cobe-right span {
   color: yellow!important;
