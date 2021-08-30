@@ -18,10 +18,12 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
+  <script src="js/main.js"></script>
   <title>مطلعون </title>
 </head>
 
 <body class="container-fluid bg-dark">
+  <section id="site">
   <nav class="nav-site">
     <section class="nav-head">
       <img src="" alt="" class="logo brand">
@@ -110,8 +112,7 @@
               <details class="class">
                 <summary>الصف الرابع</summary>
                 <ul class="class-content">
-
-                </ul>
+               </ul>
               </details>
               <!--ind class-->
               <!--start class-->
@@ -139,24 +140,13 @@
               <details class="class">
                 <summary>الصف السابع</summary>
                 <ul class="class-content">
-                  <!--start book-->
-<li>
-  <a href="books/المرحلة المتوسطة/الصف السابع/كلى الفصلين/الكويت والوطن العربي-الصف السابع.docx"
-  >الكويت والعالم العربي</a>
-</li>
-<!--ind book-->
-<!--start book-->
-<li>
-  <a href="books/المرحلة المتوسطة/الصف السابع/الفصل الدراسي الثاني/اللغة العربية-الصف السابع-الفصل الدراسي الثاني.docx"
-  >اللغة العربية-الفصل الدراسي الثاني</a>
-</li>
-<!--ind book-->
-<!--start book-->
-<li>
-  <a href="books/المرحلة المتوسطة/الصف السابع/الفصل الدراسي الثاني/العلوم-الصف السابع-الفصل الدراسي الثاني.docx"
-  >العلوم-الفصل الدراسي الثاني</a>
-</li>
-<!--ind book-->
+                  <!-- start books -->
+                  <script>
+                    add_book(1,"الكويت واوطن العربي العربي","../books/المرحلة المتوسطة/الصف السابع/كلى الفصلين/الكويت والوطن العربي-الصف السابع.docx");
+                    add_book(2,"اللغة العربية - الفصل الدراسي الثاني","books/المرحلة المتوسطة/الصف السابع/الفصل الدراسي الثاني/اللغة العربية - الصف السابع - الفصل الدراسي الثاني.docx");
+                    add_book(3,"العلوم - الفصل الدراسي الثاني","books/المرحلة المتوسطة/الصف السابع/الفصل الدراسي الثاني/العلوم - الصف السابع - الفصل الدراسي الثاني.docx");
+                  </script>
+                  <!-- ind books -->
                 </ul>
               </details>
               <!--ind class-->
@@ -164,12 +154,6 @@
               <details class="class">
                 <summary>الصف الثامن</summary>
                 <ul class="class-content">
-                  <!--start book-->
-                  <li>
-                    <a href="books/المرحلة المتوسطة/الصف الثامن/الفصل الدراسي الأول/التربية الاسلامية 1-135.docx">التربية
-                      الإسلامية-الفصل الدراسي الأول</a>
-                  </li>
-                  <!--ind book-->
                 </ul>
               </details>
               <!--ind class-->
@@ -177,11 +161,6 @@
               <details class="class">
                 <summary>الصف التاسع</summary>
                 <ul class="class-content">
-                  <!--start book-->
-                  <li><a href=
-                    "books/المرحلة المتوسطة/الصف التاسع/الفصل الدراسي الأول/لغتي_العربية_الصف_التاسع_الجزء_الاول_1_167.docx"
-                    >اللغة العربية-الفصل الدراسي الأول</a></li>
-                      <!--ind book-->
                 </ul>
               </details>
 
@@ -1050,6 +1029,7 @@
           <span>حقوق النشر محفوظة</span>
       </section>
   </footer>
+</section>
 </body>
 
 </html>
