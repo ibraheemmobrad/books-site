@@ -127,7 +127,7 @@ input,select,textarea {
 .cobe-right *  {
   display: inline;
   text-align: center!important;
-  font-size: 32px;
+  font-size: 20px;
 }
 .cobe-right span {
   color: yellow!important;
