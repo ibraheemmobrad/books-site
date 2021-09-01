@@ -18,6 +18,7 @@ html {
   width: 100%;
 }
   .nav-head h1 {
+    margin: 10px auto!important;
     text-align: center!important;
 }
 .tabs-site {
@@ -62,12 +63,11 @@ h2 {
   list-style-type: none
 }
 .materials .material {
-  margin: 10px!important;
   list-style-type: none;
 }
 .materials .material summary {
   background-color: #002080;
-  margin: 15px 10px!important;
+  margin: 0px auto 5px auto!important;
   padding: 15px!important;
 }
 .not-available {
@@ -81,7 +81,7 @@ h2 {
 .alert-details {
   color: black !important;
 }
-.phase .phase-head {
+.phase .phase-head,.questions-section .questions-section-head {
   margin-bottom: 10px !important;
 }
 .goToTob {
@@ -143,17 +143,23 @@ input,select,textarea {
   min-height: 500px;
 }
 #tab1 .tabs-site .tab,#tab2 .tabs-site .tab {
-  min-width: calc(97% / 2);
-  max-width: calc(97% / 2);
+  width: calc(97% / 2);
+  height: 100px;
   margin-right: 1% !important;
 }
 .question {
+  padding: 5px 10px;
   margin-bottom: 10px!important;
 }
 .question  summary{
   background-image: linear-gradient(to left,#000,#1a1300,#332600,#4d3900,#664d00,#806000,#997300,#b38600,#c90,#e6ac00,#ffbf00);
   min-height: 30px;
   max-height: 30px;
+}
+.question .anser {
+  background-color: white;
+  color: black!important;
+  margin: 10px;
 }
 /*start header style foor corses page*/
 .header {
