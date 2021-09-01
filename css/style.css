@@ -42,6 +42,10 @@ h2 {
   margin: 0% 2% 2% 10px !important;
   border-radius: 20%;
 }
+.class * {
+  background-color: white;
+  width: 100%;
+}
 .class summary {
   background-color: #cc0000;
   min-height: 30px;
