@@ -50,12 +50,13 @@ h2 {
   min-height: 30px;
   max-height: 30px;
 }
-.class-content {
+.class .class-content,.question .anser {
   background-color: white;
+
   padding: 15px !important;
 }
   .class-content li {
-  text-align: right;
+    text-align: right;
 }
 .materials {
   background-color: white;
