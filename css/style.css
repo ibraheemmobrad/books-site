@@ -1,8 +1,8 @@
 * {
   direction: rtl;
   color: white;
-  margin: 0 !important;
-  padding: 0 !important;
+  margin: 0 ;
+  padding: 0 ;
 }
 html {
   scroll-behavior: smooth;
@@ -24,7 +24,6 @@ html {
 .tabs-site {
   background-color: #80dfff;
   height: 100px;
-  margin: 0!important;
   padding: 10px !important;
   text-align: center;
 }
