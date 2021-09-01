@@ -24,6 +24,7 @@ html {
 .tabs-site {
   background-color: #80dfff;
   height: 100px;
+  margin: 0!important;
   padding: 10px !important;
   text-align: center;
 }
@@ -54,8 +55,7 @@ h2 {
     background-color: white!important ;
   padding: 15px !important;
 }
-.class-contentli {
-  background-color: white;
+.class-content li {
    color: white;
   text-align: right;
 }
