@@ -158,9 +158,8 @@ input,select,textarea {
   max-height: 30px;
 }
 .question .anser {
-  background-color: white;
   color: black!important;
-  margin: 10px;
+  margin: 10px!important;
 }
 /*start header style foor corses page*/
 .header {
