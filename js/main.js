@@ -1,9 +1,21 @@
-//add book funktion
-function add_book (book_id,book_name,book_path){
-    let book = `<div id="book${book_id}">
-    <li>
-    <a href="${book_path}">${book_name}<a/>
-    </li>
-    </div>`;
-    document.write(book)
-}
+document.write("<h1>hi this a js programe tha js is very prety langwiche</h1>".style.color=blue);
+console.log(1);
+console.log(1.1);
+console.log("hi");
+console.log({ name: "hi", hi: 1 });
+console.log([1, 2, 3, 4, 5, "hi"]);
+console.log(typeof 1);
+console.log(typeof "hi");
+console.log(1 + 1);
+console.log(12 - 2);
+console.log(5 * 5);
+console.log(100 / 5);
+console.log(5 ** 5);
+console.log(5 * 5 * 5 * 5 * 5);
+console.log(5 % 3);
+console.log(1000000);
+console.log(1_000_000);
+console.log(1e14);
+console.log(Number.MAX_SAFE_INTEGER);
+console.log(Number.MAX_VALUE);
+console.log((1000.20202020202020202).toFixed(2));
