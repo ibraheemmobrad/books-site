@@ -8,6 +8,12 @@
   direction: rtl;
   color: white;
 }
+@media (max-width: 1000px) {
+  * {
+    font-size: 2em;
+    height: 2em;
+  }
+}
 h1,h2,h3,h4,h5,h6 {
   margin: auto;
   text-align: center;
