@@ -3,13 +3,19 @@
   --tabs_site_color:#00dd80;
 }
 * {
+  margin: 0;
+  padding: 0;
   direction: rtl;
   color: white;
 }
-.bav-site {
-  height: 200px;
+h1,h2,h3,h4,h5,h6 {
+  margin: auto;
+  text-align: center;
 }
-.nav-site .nav-head {
+.nav-site {
+  display: inline-block;
+  height: 75px;
+}
+.nav-site,.nav-head {
   background-color: var(--nav_head_color);
-}
 }
