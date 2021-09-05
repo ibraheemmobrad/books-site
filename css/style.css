@@ -1,6 +1,7 @@
 :root {
   --nav_head_color:#c00;
   --tabs_site_color:#00dd80;
+  --header_bg_color:#1a8cff;
 }
 * {
   margin: 0;
@@ -12,19 +13,23 @@ html {
   width: 100%;
 }
 @media (max-width: 1000px) {
-  /* * {
-    font-size: 20px;
-    height: 3em; */
+  * {
+    font-size: 20.0px;
+    line-height: 1.5;
   }
 }
 h1,h2,h3,h4,h5,h6 {
   margin: auto;
   text-align: center;
 }
-.nav-site {
-  display: inline-block;
-  height: 75px;
-}
 .nav-site,.nav-head {
   background-color: var(--nav_head_color);
+}
+.bloger {
+  font-size: 100px;
+}
+.main-header {
+  background-color: var(--header_bg_color);
+  padding: 15px;
+  margin-bottom: 10px;
 }
