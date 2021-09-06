@@ -3,11 +3,9 @@
   --tabs_site_color:#00dd80;
   --header_bg_color:#1a8cff;
 }
-* {
-  margin: 0;
-  padding: 0;
-  direction: rtl;
+body {
   color: white;
+  direction: rtl;
 }
 html {
   width: 100%;
@@ -34,15 +32,9 @@ h1,h2,h3,h4,h5,h6 {
   margin-bottom: 10px;
 }
 .service {
-  background-color: var(--tabs_site_color);
+  background-color: white;
+  color: black;
   padding: 15px;
   margin: 0px 15px 15px 15px;
   height: 300px;
-}
-@media (min-width: 1000px) {
-  .service {
-    width: calc(96%/3);
-    margin: 1%;
-    float: left;
-  }
 }
