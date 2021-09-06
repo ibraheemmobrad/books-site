@@ -7,26 +7,38 @@
     <link
       rel="stylesheet"
       href="https://cdn.rtlcss.com/bootstrap/v4.5.3/css/bootstrap.min.css"
-      integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe"
-      crossorigin="anonymous"
-    />
+      integrity="sha384-JvExCACAZcHNJEc7156QaHXTnQL3hQBixvj5RV5buE7vgnNEzzskDtx9NQ4p6BJe" crossorigin="anonymous"/>
     <!-- jQuery and JS bundle w/ Popper.js -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.rtlcss.com/bootstrap/v4.5.3/js/bootstrap.bundle.min.js"
-      integrity="sha384-40ix5a3dj6/qaC7tfz0Yr+p9fqWLzzAXiwxVLt9dw7UjQzGYw6rWRhFAnRapuQyK"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.rtlcss.com/bootstrap/v4.5.3/js/bootstrap.bundle.min.js" integrity="sha384-40ix5a3dj6/qaC7tfz0Yr+p9fqWLzzAXiwxVLt9dw7UjQzGYw6rWRhFAnRapuQyK" crossorigin="anonymous"></script>
     <script src="https://use.fontawesome.com/573c18da27.js"></script>
     <link rel="stylesheet" href="css/Normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
   <body class="bg-dark">
+    <nav class="nav">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a href="#" class="nav-link active">Active</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Action</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link">Another link</a>
+        </li>
+        <li class="nav-item">
+          <a href="#" class="nav-link disabled">Disabled</a>
+        </li>
+      </ul>
+    </nav>
     <main class="content">
       <!-- start tab1 -->
       <section class="tab-pane fade show active" id="tab1">
@@ -64,7 +76,7 @@
         <div class="service">
           <img src="" alt="" />
           <h3>كتب pdf,</h3>
-          <p>كتب pdf لتسهيل الدراسة بدون كتب ورقية</p>
+          <p>كتب pdf لتسهيل الدراسة بدون كتب ورقية.</p>
         </div>
         <!-- ind service -->
         <!-- start service -->
@@ -77,19 +89,31 @@
         <!-- start service -->
         <div class="service">
           <img src="" alt="" />
-          <h3></h3>
-          <p></p>
+          <h3>كتب مسموعة،</h3>
+          <p>الكتب الدراسية بصيغة مسموعة في مكان واحد.</p>
         </div>
         <!-- ind service -->
         <!-- start service -->
         <div class="service">
           <img src="" alt="" />
-          <h3></h3>
-          <p></p>
+          <h3>شروحات فيديو,</h3>
+          <p>مع شروحات الفيديو إلي نقدمها لك إن شاء الله دراستك أسهل.</p>
         </div>
         <!-- ind service -->
       </section>
       <!-- ind services -->
+      <!-- start statistics -->
+      <section class="statistics">
+        <p>كتب الdocx المرفوعة</p>
+        <span>0</span>
+        <p>عدد الفيديوهات المرفوعة</p>
+        <span>1005</span>
+        <p></p>
+        <span></span>
+        <p></p>
+        <span></span>
+      </section>
+      <!-- ind statistics -->
       <!-- ind tab1 -->
       <!-- start tab2 -->
       <!-- ind tab2 -->
@@ -102,5 +126,17 @@
       <!-- start tab6 -->
       <!-- ind tab6 -->
     </main>
+    <footer class="footer">
+      <h2>مطلعون</h2>
+      <!-- start comtemt us -->
+      <!-- ind comtemt us -->
+      <!-- start copy wright -->
+      <section class="copy-wright">
+        <span>&copy;</span>
+        <p>2021</p>
+        <span>حقوق النشر محفوظة</span>
+      </section>
+      <!-- ind copy wright -->
+    </footer>
   </body>
 </html>

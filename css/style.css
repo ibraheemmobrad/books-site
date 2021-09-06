@@ -1,7 +1,8 @@
 :root {
   --nav_head_color:#c00;
-  --tabs_site_color:#00dd80;
+  --footer_bg_color:#00dd80;
   --header_bg_color:#1a8cff;
+  --statistics_bg_color: #df80ff; 
 }
 body {
   color: white;
@@ -20,6 +21,9 @@ h1,h2,h3,h4,h5,h6 {
   margin: auto;
   text-align: center;
 }
+section {
+  margin: 10px 0;
+}
 .nav-site,.nav-head {
   background-color: var(--nav_head_color);
 }
@@ -36,5 +40,17 @@ h1,h2,h3,h4,h5,h6 {
   color: black;
   padding: 15px;
   margin: 0px 15px 15px 15px;
+  width: 100%;
   height: 300px;
+}
+.statistics {
+  background-color: var(--statistics_bg_color);
+  padding: 15px;
+  text-align: center;
+}
+.statistics p,span {
+  width: 50%;
+}
+.footer {
+  background-color: var(--footer_bg_color);
 }
