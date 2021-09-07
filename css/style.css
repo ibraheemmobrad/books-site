@@ -1,12 +1,14 @@
 :root {
   --nav_bg_color: #c00;
-  --footer_bg_color: #00dd80;
   --header_bg_color: #1a8cff;
   --statistics_bg_color: #df80ff;
+  --footer_bg_color: #00dd80;
+}
+html {
+  direction: rtl;
 }
 body {
   color: white;
-  direction: rtl;
 }
 @media (max-width: 1000px) {
   body {
@@ -54,6 +56,24 @@ h6 {
 .statistics p,
 span {
   width: 50%;
+}
+.tab-pame {
+  min-height: 500px;
+}
+.class {
+  margin: 10px;
+}
+.class summary {
+  background-color: var(--nav_bg_color);
+  height: 500px;
+  text-align: center;
+}
+.class .class-content {
+  background-color: white;
+  list-style-position: inside;
+}
+.class .class-content li {
+  margin: 15px;
 }
 .footer {
   background-color: var(--footer_bg_color);
