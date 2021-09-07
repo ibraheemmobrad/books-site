@@ -26,12 +26,9 @@ h6 {
 .nav {
   background-color: var(--nav_bg_color);
 }
-nav li {
-  margin: 5px 10px;
-}
-nav a {
-  width: 100%;
-  padding: 10px 15px;
+.nav .tab {
+  width: 98%;
+  margin: 2% 1%;
 }
 .bloger {
   font-size: 100px;
