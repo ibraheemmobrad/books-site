@@ -32,8 +32,8 @@ h6 {
   width: 98%;
   margin: 2% 1%;
 }
-.bloger {
-  font-size: 100px;
+.my-i {
+  font-size: 200px;
 }
 .main-header {
   background-color: var(--header_bg_color);
@@ -77,4 +77,5 @@ span {
 }
 .footer {
   background-color: var(--footer_bg_color);
+  padding: 15px;
 }
