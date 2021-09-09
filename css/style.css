@@ -25,7 +25,6 @@ h6 {
   background-color: var(--nav_bg_color);
   width: 100%;
   height: 50px;
-  overflow: scroll;
   position: sticky;
   top: 0;
 }
@@ -43,9 +42,9 @@ h6 {
 }
 .services {
   background-color: white;
+  color: black;
 }
 .service {
-  color: black;
   padding: 15px;
   margin: 0px 15px 15px 15px;
   height: 300px;
