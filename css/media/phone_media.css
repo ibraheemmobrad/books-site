@@ -1,5 +1,9 @@
 @media (max-width: 1000px) {
-    summary {
-        height: 1000px!important;
-    }
+  body {
+    font-size: 20px;
+    line-height: 1.5;
+  }
+  .main-header {
+    min-height: 300px;
+  }
 }

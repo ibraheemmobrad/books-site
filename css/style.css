@@ -3,6 +3,7 @@
   --header_bg_color: #1a8cff;
   --statistics_bg_color: #df80ff;
   --newz_bg_color: red;
+  --corse_details_bg_color: blue;
   --footer_bg_color: #00dd80;
 }
 html {
@@ -10,12 +11,6 @@ html {
 }
 body {
   color: white;
-}
-@media (max-width: 1000px) {
-  body {
-    font-size: 20px;
-    line-height: 1.5;
-  }
 }
 h1,
 h2,
@@ -28,9 +23,11 @@ h6 {
 }
 .nav {
   background-color: var(--nav_bg_color);
+  position: sticky;
+  top: 0;
 }
 .nav .tab {
-  width: 98%;
+  width: 100%;
   margin: 2% 1%;
 }
 .my-i {
@@ -58,7 +55,7 @@ h6 {
 span {
   width: 50%;
 }
-.tab-pame {
+.tab-pane {
   min-height: 500px;
 }
 .class {
@@ -83,6 +80,13 @@ span {
   background-color: var(--newz_bg_color);
   padding: 15px;
   margin-bottom: 15px;
+}
+.cumming-corses {
+  padding: 15px;
+  margin: 10px 0px;
+}
+.cors .cors-details {
+  background-color: var(--corse_details_bg_color);
 }
 .footer {
   background-color: var(--footer_bg_color);
