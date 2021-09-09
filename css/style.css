@@ -3,7 +3,7 @@
   --header_bg_color: #1a8cff;
   --statistics_bg_color: #df80ff;
   --newz_bg_color: red;
-  --corse_details_bg_color: blue;
+  --corse_details_bg_color: #1aff1a;
   --footer_bg_color: #00dd80;
 }
 html {
@@ -85,7 +85,7 @@ span {
   padding: 15px;
   margin: 10px 0px;
 }
-.cors .cors-details {
+.corse .corse-details {
   background-color: var(--corse_details_bg_color);
 }
 .footer {
