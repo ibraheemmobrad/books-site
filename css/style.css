@@ -5,6 +5,7 @@
   --newz_bg_color: red;
   --corse_details_bg_color: #1aff1a;
   --footer_bg_color: #00dd80;
+  --copy_wroght_color: blue;
 }
 html {
   direction: rtl;
@@ -97,7 +98,14 @@ span {
   background-color: var(--footer_bg_color);
   padding: 15px;
 }
-.footer .important-links {
+.footer .important-links,
+.footer .copy-wright{
   padding: 0px 25%;
   text-align: center;
+}
+.footer .copy-wright * {
+  display: inline;
+}
+.footer .copy-wright span{
+color: var(--copy_wright_color);
 }
