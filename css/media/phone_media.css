@@ -4,6 +4,7 @@
     line-height: 1.5;
   }
   .main-header {
-    min-height: 300px;
+    min-height: 200px;
+    line-height: 50px;
   }
 }
