@@ -82,6 +82,7 @@ span {
 .class .class-content {
   background-color: white;
   list-style-position: inside;
+  list-style-image: linear-gradient(black);
 }
 .class .class-content li {
   margin: 15px;

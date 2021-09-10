@@ -1,9 +1,12 @@
 @media (max-width: 1000px) {
   body {
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1.5;
   }
   .main-header {
     min-height: 200px;
+  }
+  .class .class-content {
+    font-size: 20px;
   }
 }
