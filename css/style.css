@@ -55,8 +55,10 @@ h6 {
   margin: 0px 15px 15px 15px;
 }
 .service {
-  padding: 15px;
-  height: 300px;
+background-col                                    or: blue;
+  width: calc(97%/2);
+  height: 50px;
+  margin: 1%;
 }
 .statistics {
   background-color: var(--statistics_bg_color);
