@@ -115,10 +115,13 @@ span {
   padding: 0px 25%;
   text-align: center;
 }
-.footer section img{
+.footer .contact-us {
+  padding: 10px 25%;
+}
+.footer .contact-us img{
   display: inline;
-  width: 10px;
-  height: 10px;
+  width: 20px;
+  height: 20px;
 }
 .footer .copy-wright * {
   display: inline;
