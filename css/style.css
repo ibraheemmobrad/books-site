@@ -115,6 +115,11 @@ span {
   padding: 0px 25%;
   text-align: center;
 }
+.footer section img{
+  display: inline;
+  width: 10px;
+  height: 10px;
+}
 .footer .copy-wright * {
   display: inline;
 }
