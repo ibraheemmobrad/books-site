@@ -70,5 +70,9 @@ class_content_container.setAttribute("id",classContentId);
   class_content_container.appendChild(class_content_name_container);
   class_content_container.appendChild(class_content_name);
 }
-addPhase("phase1","المرحلة الإبتدائية","tab2");
-addClass("class1","الصف الأول","phase1")
+addPhase("phase2","المرحلة المتوسطة","tab2");
+addClass("class9","الصف التاسع","phase2");
+addClassContent("book1","الكويت والعالم","class9","books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx");
+addClassContent();
+addClassContent();
+addClassContent();
