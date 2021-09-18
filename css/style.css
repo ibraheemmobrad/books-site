@@ -110,8 +110,7 @@ span {
   background-color: var(--footer_bg_color);
   padding: 15px;
 }
-.footer .important-links,
-.footer .copy-wright{
+.footer .important-links {
   padding: 0px 25%;
   text-align: center;
 }

@@ -1,4 +1,3 @@
-// add service function
 function addService(serviceName) {
   const services = document.getElementById("services");
   const service_container = document.createElement("p");
@@ -11,13 +10,30 @@ function addService(serviceName) {
 
   service_container.appendChild(service_name);
 }
-// add phase function
+function addNewz(newzHead, newzDetails) {
+  const newz = document.getElementById("tab8");
+  const newz_container = document.createElement("div");
+  const newz_head_container = document.createElement("h2");
+  const newz_head = document.createTextNode(newzHead);
+  const newz_details_container = document.createElement("p");
+  const newz_details = document.createTextNode(newzDetails);
+
+  newz_container.classList.add("newz");
+
+  document.body.appendChild(newz_container);
+  newz.appendChild(newz_container);
+  newz_container.appendChild(newz_head_container);
+  newz_head_container.appendChild(newz_head);
+  newz_container.appendChild(newz_details_container);
+  newz_details_container.appendChild(newz_details);
+}
 function addPhase(phaseId, phaseName, phaseTab) {
   const phases = document.getElementById(phaseTab);
   const phase_container = document.createElement("div");
   const phase_head_container = document.createElement("h2");
   const phase_head = document.createTextNode(phaseName);
 
+  phase_container.setAttribute("id",phaseId)
   phase_container.classList.add("phase");
 
   document.body.appendChild(phase_container);
@@ -32,6 +48,7 @@ function addClass(classId, className, classPhase) {
   const class_name = document.createTextNode(className);
   const class_content = document.createElement("ul");
 
+  class_container.setAttribute("id",classId)
   class_container.classList.add("class");
   class_content.classList.add("class-content");
 
@@ -41,14 +58,17 @@ function addClass(classId, className, classPhase) {
   class_name_container.appendChild(class_name);
   class_container.appendChild(class_content);
 }
-function addBook(bookId, bookName, bookClass, bookPath) {
-  const books = document.getElementById(bookClass);
-  const book_container = document.createElement("li");
-  const book_name_container = document.createElement("a");
-  const book_name = document.createTextNode(bookName);
+function addClassContent(classContentId, classContentName, classContentClass, classContentPath) {
+  const class_contents = document.getElementById(classContentClass);
+  const class_content_container = document.createElement("li");
+  const class_content_name_container = document.createElement("a");
+  const class_name = document.createTextNode(bookName);
 
-  document.body.appendChild(book_container);
-  book_container.appendChild(book_name_container);
-  book_name_container.appendChild(book_name);
+class_content_container.setAttribute("id",classContentId);
+
+  document.body.appendChild(class_content_container);
+  class_content_container.appendChild(class_content_name_container);
+  class_content_container.appendChild(class_content_name);
 }
-
+addPhase("phase1","المرحلة الإبتدائية","tab2");
+addClass("class1","الصف الأول","phase1")
