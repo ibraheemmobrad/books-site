@@ -1,4 +1,6 @@
+
 function addService(serviceName) {
+
   service_container.classList.add("service");
 
   document.body.appendChild(service_container);
@@ -29,7 +31,7 @@ function addPhase(phaseId, phaseName, phaseTab) {
   const phase_head_container = document.createElement("h2");
   const phase_head = document.createTextNode(phaseName);
 
-  phase_container.setAttribute("id", phaseId);
+  phase_container.setAttribute("id",phaseId)
   phase_container.classList.add("phase");
 
   document.body.appendChild(phase_container);
@@ -45,7 +47,7 @@ function addClass(classId, className, classPhase) {
   const class_content = document.createElement("ul");
 
   class_container.classList.add("class");
-  class_content.setAttribute("id", classId);
+  class_content.setAttribute("id",classId)
   class_content.classList.add("class-content");
 
   document.body.appendChild(class_container);
@@ -54,371 +56,30 @@ function addClass(classId, className, classPhase) {
   class_name_container.appendChild(class_name);
   class_container.appendChild(class_content);
 }
-function addClassContent(
-  classContentId,
-  classContentName,
-  classContentClass,
-  classContentPath
-) {
+function addClassContent(classContentName, classContentClass, classContentPath) {
   const class_contents = document.getElementById(classContentClass);
   const class_content_container = document.createElement("li");
   const class_content_name_container = document.createElement("a");
   const class_content_name = document.createTextNode(classContentName);
 
-  class_content_container.setAttribute("id", classContentId);
+class_content_container.setAttribute("id",classContentId);
+class_content_name_container.setAttribute("href",classContentPath)
 
-  document.body.appendChild(class_content_container);
-  class_contents.appendChild(class_content_container);
-  class_content_container.appendChild(class_content_name_container);
-  class_content_name_container.appendChild(class_content_name);
+document.body.appendChild(class_content_container);
+class_contents.appendChild(class_content_container);
+class_content_container.appendChild(class_content_name_container);
+  class_content_name_container.appendChild(class_content_name)
 }
-addPhase("phase2", "المرحلة المتوسطة", "tab2");
-addClass("class9", "الصف التاسع", "phase2");
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
-addClassContent(
-  "book1",
-  "الكويت والعالم",
-  "class9",
-  "books/المرحلة المتوسطة/الصف التاسع/كلى الفصلين/الكويت والعالم - الصف التاسع.docx"
-);
+addPhase("phase2","المرحلة المتوسطة","tab2");
+addClass("class6","الصف السادس","phase2");
+addClass("class7","الصف السابع","phase2");
+addClass("class8","الصف الثامن","phase2");
+addClass("class9","الصف التاسع","phase2");
+addClassContent("الكويت والوطن العربي","class7","books/المرحلة المتوسطة/الصف السابع/كلى الفصلين/الكويت والوطن العربي - الصف السابع.docx")
+addClassContent()
+addClassContent()
+addClassContent()
+addClassContent()
+addClassContent()
+addClassContent()
+addClassContent()
