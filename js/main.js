@@ -62,7 +62,6 @@ function addClassContent(classContentName, classContentClass, classContentPath) 
   const class_content_name_container = document.createElement("a");
   const class_content_name = document.createTextNode(classContentName);
 
-class_content_container.setAttribute("id",classContentId);
 class_content_name_container.setAttribute("href",classContentPath)
 
 document.body.appendChild(class_content_container);
