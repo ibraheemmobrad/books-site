@@ -56,19 +56,20 @@ function addClass(classId, className, classPhase) {
   classes.appendChild(class_container);
   class_container.appendChild(class_name_container);
   class_name_container.appendChild(class_name);
-  class_container.appendChild(class_content);
 }
 function addClassContent(classContentId, classContentName, classContentClass, classContentPath) {
   const class_contents = document.getElementById(classContentClass);
   const class_content_container = document.createElement("li");
   const class_content_name_container = document.createElement("a");
-  const class_name = document.createTextNode(bookName);
+  const class_content_name = document.createTextNode(classContentName);
 
 class_content_container.setAttribute("id",classContentId);
 
   document.body.appendChild(class_content_container);
+  class_container.appendChild(class_content);
+
   class_content_container.appendChild(class_content_name_container);
-  class_content_container.appendChild(class_content_name);
+  class_content_name_container.appendChild(class_content_name)
 }
 addPhase("phase2","المرحلة المتوسطة","tab2");
 addClass("class9","الصف التاسع","phase2");
