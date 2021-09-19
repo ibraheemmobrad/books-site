@@ -75,10 +75,3 @@ addClass("class7","الصف السابع","phase2");
 addClass("class8","الصف الثامن","phase2");
 addClass("class9","الصف التاسع","phase2");
 addClassContent("الكويت والوطن العربي","class7","books/المرحلة المتوسطة/الصف السابع/كلى الفصلين/الكويت والوطن العربي - الصف السابع.docx")
-addClassContent()
-addClassContent()
-addClassContent()
-addClassContent()
-addClassContent()
-addClassContent()
-addClassContent()
