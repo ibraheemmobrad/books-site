@@ -1,7 +1,5 @@
+
 function addService(serviceName) {
-  const services = document.getElementById("services");
-  const service_container = document.createElement("p");
-  const service_name = document.createTextNode(serviceName);
 
   service_container.classList.add("service");
 
@@ -66,8 +64,7 @@ function addClassContent(classContentId, classContentName, classContentClass, cl
 class_content_container.setAttribute("id",classContentId);
 
   document.body.appendChild(class_content_container);
-  class_container.appendChild(class_content);
-
+  class_contents.appendChild(class_content_container);
   class_content_container.appendChild(class_content_name_container);
   class_content_name_container.appendChild(class_content_name)
 }
