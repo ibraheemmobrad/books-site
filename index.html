@@ -28,26 +28,40 @@
     <title>مطلعون</title>
   </head>
   <body class="bg-dark">
-    <ul class="nav nav-tabs">
-      <li class="nav-item">
-        <a href="#" class="nav-link active">Active</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
-        <div class="dropdown-menu">
-          <a class="dropdown-item" href="#">Action</a>
-          <a class="dropdown-item" href="#">Another action</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">Action</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link">Another link</a>
-      </li>
-      <li class="nav-item">
-        <a href="#" class="nav-link disabled">Disabled</a>
-      </li>
-    </ul>
+    <div class="dropdown open">
+      <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId" data-toggle="dropdown" aria-haspopup="true"
+          aria-expanded="false">
+          القائمة
+          </button>
+      <div class="dropdown-menu" aria-labelledby="triggerId">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a href="#tab1" class="nav-link active">الرئيسية</a>
+          </li>
+          <li class="nav-item">
+            <a href="#tab2" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="#tab3" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"></a>
+          </li>
+          <li class="nav-item">
+            <a href="" class="nav-link"></a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <!-- start content -->
     <main class="tab-content">
       <!-- start tab1 -->
