@@ -21,28 +21,15 @@ h3,
 h4,
 h5,
 h6 {
-  margin: auto;
+  margin: 10px 0px;
   text-align: center;
 }
-.nav {
+.nav-bar {
   background-color: var(--nav_bg_color);
-  width: 100%;
-  position: sticky;
-  top: 0;
-}
-.tabs-site {
-  background-color: var(--footer_bg_color);
-}
-.menu summary{
   height: 50px;
 }
-.nav .tab {
-  width: clac(97%/3);
-  height: 25px;
-  margin: 2% 1%;
-}
-.nav .menu {
-  background-color: var(--menu_bg_color);
+.nav-bar .dropdown-menu {
+  background-color: var(--footer_bg_color);
 }
 .main-header {
   background-color: var(--header_bg_color);
