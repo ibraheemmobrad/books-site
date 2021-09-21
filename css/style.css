@@ -34,9 +34,11 @@ h6 {
 }
 .nav-bar .drop-down-content {
   background-color: var(--footer_bg_color);
+  width: 100%;
 }
 .nav-bar .tab a {
   width: calc(97%/3);
+  height: 50px;
   margin: 1%!important;
 }
 .main-header {
