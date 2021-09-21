@@ -84,7 +84,7 @@ addClassContent("الرياضيات - الفصل الدراسي الأول","cla
 addClassContent("اللغة العربية - الفصل الدراسي الأول","class9","books/المرحلة المتوسطة/الصف التاسع/الفصل الدراسي الأول/اللغة العربية - الصف التاسع - الفصل الدراسي الاول.docx")
 addPhase("phase4","المرحلة الإبتدائية","tab3")
 addClass("class13","الصف الأول","phase4")
-addClassContent("التربية الإسلامية - الفصل الدراسي الأول","class13","https :// www.moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/1/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%20%D8%B5%201%20%D8%AC%201.pdf")
+addClassContent("التربية الإسلامية - الفصل الدراسي الأول","class13","https://www.moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/1/%D8%A7%D9%84%D8%AA%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%A7%D9%84%D8%A7%D8%B3%D9%84%D8%A7%D9%85%D9%8A%D8%A9%20%20%D8%B5%201%20%D8%AC%201.pdf")
 addClassContent(" - الفصل الدراسي الأول","class13","")
 addClassContent(" - الفصل الدراسي الأول","class13","")
 addClassContent(" - الفصل الدراسي الأول","class13","")
