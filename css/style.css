@@ -77,7 +77,7 @@ span {
 }
 .class .class-content {
   background-color: white;
-  list-style-position: inside;
+  list-style-position: outside;
   text-align: right;
 }
 .class .class-content li {
