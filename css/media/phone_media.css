@@ -3,6 +3,10 @@
     font-size: 25px;
     line-height: 1.5;
   }
+  .nav-bar .tab {
+    width: calc(96% / 4);
+    margin: 1% !important;
+  }
   .main-header {
     min-height: 200px;
   }
