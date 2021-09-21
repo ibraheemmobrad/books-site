@@ -28,7 +28,11 @@ h6 {
   background-color: var(--nav_bg_color);
   height: 50px;
 }
-.nav-bar .dropdown {
+.nav-bar * {
+  margin: 0;
+  padding: 0;
+}
+.nav-bar .drop-down-content {
   background-color: var(--footer_bg_color);
 }
 .main-header {
