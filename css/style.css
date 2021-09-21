@@ -24,14 +24,18 @@ h6 {
   margin: 10px 0px;
   text-align: center;
 }
-.nav-bar  summary{
+.nav-bar {
   background-color: var(--nav_bg_color);
+  position: sticky;
+  float: left;
+}
+.nav-bar summary {
   height: 50px;
 }
 .nav-bar .menu-content {
   background-color: var(--footer_bg_color);
   width: 100%;
-  margin:  10px 0px;
+  padding: 10px 0px;
 }
 .nav-bar .tab a {
   height: 50px;
@@ -112,7 +116,7 @@ span {
 .footer .contact-us a {
   text-decoration: none;
 }
-.footer .contact-us img{
+.footer .contact-us img {
   display: inline;
   width: 32px;
   height: 32px;
@@ -120,6 +124,6 @@ span {
 .footer .copy-wright * {
   display: inline;
 }
-.footer .copy-wright span{
-color: var(--copy_wright_color);
+.footer .copy-wright span {
+  color: var(--copy_wright_color);
 }
