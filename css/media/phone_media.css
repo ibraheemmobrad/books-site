@@ -3,7 +3,7 @@
     font-size: 25px;
     line-height: 1.5;
   }
-  .nav-bar .tab {
+  .nav-bar .tab a {
     width: calc(96% / 4);
     margin: 1% !important;
   }
