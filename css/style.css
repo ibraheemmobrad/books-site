@@ -33,10 +33,10 @@ h6 {
   float: left;
 }
 .nav-bar summary {
-  position: absolute;
-  top: 100%;
-  left: 0%;
-  height: 20px;
+  height: 50px;
+}
+.nav-bar summary i {
+  clear: left;
 }
 .nav-bar .menu-content {
   background-color: var(--footer_bg_color);
