@@ -5,7 +5,6 @@
   }
   .nav-bar .tab {
     width: calc(96% / 4);
-    margin: 1% !important;
     float: left;
   }
   .main-header {
