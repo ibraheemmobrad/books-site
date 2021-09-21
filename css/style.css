@@ -28,7 +28,7 @@ h6 {
   background-color: var(--nav_bg_color);
   height: 50px;
 }
-.nav-bar .dropdown-menu {
+.nav-bar .dropdown {
   background-color: var(--footer_bg_color);
 }
 .main-header {
