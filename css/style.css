@@ -25,6 +25,10 @@ h6 {
   margin: 10px 0px;
   text-align: center;
 }
+.navbar {
+  position: sticky;
+  top: 0;
+}
 .navbar .menu-content {
   background-color: var(--footer_bg_color);
   width: 100%;
