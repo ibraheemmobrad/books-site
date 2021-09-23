@@ -25,12 +25,12 @@ h6 {
   margin: 10px 0px;
   text-align: center;
 }
-.navbar .menu-content {
+nav .menu-content {
   background-color: var(--footer_bg_color);
   width: 100%;
   padding: 10px 0px;
 }
-.navbar .tab a {
+nav.tab a {
   height: 50px;
   font-size: 10px;
   color: black;
