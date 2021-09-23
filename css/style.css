@@ -25,25 +25,12 @@ h6 {
   margin: 10px 0px;
   text-align: center;
 }
-.nav-bar {
-  background-color: var(--nav_bg_color);
-  width: 100%;
-  position: sticky;
-  text-outline: 0 0 #000;
-  float: left;
-}
-.nav-bar summary {
-  height: 50px;
-}
-.nav-bar summary i {
-  clear: left;
-}
-.nav-bar .menu-content {
+.navbar .menu-content {
   background-color: var(--footer_bg_color);
   width: 100%;
   padding: 10px 0px;
 }
-.nav-bar .tab a {
+.navbar .tab a {
   height: 50px;
   font-size: 10px;
   color: black;
