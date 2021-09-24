@@ -570,3 +570,4 @@ addClass("class23", "الصف الحادي عشر أدبي", "phase6");
 addClass("class24", "الصف الحادي عشر علمي", "phase6");
 addClass("class25", "الصف الثاني عشر أدبي", "phase6");
 addClass("class26", "الصف الثاني عشر علمي", "phase6");
+addNewz("هبر تجريبي","مرحبا بكم في هذا الخبر التجريبي اضغط<a href=\"#tab4\">هنا</a>")
