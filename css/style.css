@@ -30,6 +30,12 @@ nav .menu-content {
   width: 100%;
   padding: 10px 0px;
 }
+nab .nav-bar-content {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border-width: 0;
+}
 nav .tab a {
   height: 50px;
   font-size: 10px;
