@@ -30,7 +30,7 @@ nav .menu-content {
   width: 100%;
   padding: 10px 0px;
 }
-nav.tab a {
+nav .tab a {
   height: 50px;
   font-size: 10px;
   color: black;
