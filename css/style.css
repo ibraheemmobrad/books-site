@@ -88,6 +88,10 @@ span {
 .class .class-content li {
   margin: 15px;
 }
+.class .class summary {
+  width: 96%;
+  margin: 10px 2%;
+}
 .newz-container {
   margin: 15px;
 }
