@@ -458,11 +458,6 @@ addClassContent(
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/7/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%B9%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9%20%D8%B57%20%D8%AC%201.pdf"
 );
 addClassContent(
-  "عالم التقنية - الفصل الدراسي الأول",
-  "class19",
-  "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/7/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D8%B9%D8%A7%D9%84%D9%85%20%D8%A7%D9%84%D8%AA%D9%82%D9%86%D9%8A%D8%A9%20%D8%B57%20%D8%AC%201.pdf"
-);
-addClassContent(
   "اللغة العربية - الفصل الدراسي الأول",
   "class19",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/7/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%207%20%D8%AC%201.pdf"
@@ -566,8 +561,5 @@ addClassContent(
 );
 addPhase("phase6", "المرحلة الثانوية", "tab3");
 addClass("class22", "الصف العاشر", "phase6");
-addClass("class23", "الصف الحادي عشر أدبي", "phase6");
-addClass("class24", "الصف الحادي عشر علمي", "phase6");
-addClass("class25", "الصف الثاني عشر أدبي", "phase6");
-addClass("class26", "الصف الثاني عشر علمي", "phase6");
-addNewz("هبر تجريبي","مرحبا بكم في هذا الخبر التجريبي اضغط<a href=\"#tab4\">هنا</a>")
+addClass("class23","الصف الحادي عشر","phase6")
+addClass("class23-1","الحادي عشر أدبي","class23")
