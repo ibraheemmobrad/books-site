@@ -29,39 +29,57 @@
   </head>
   <body class="bg-dark">
     <nav class="navbar navbar-expand--xl navbar-danger bg-danger">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler d-lg-none" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId"
-        aria-expanded="false" aria-label="Toggle navigation"><i class="fa-bars    "></i></button>
-    <div class="collapse navbar-collapse nav-bar-content" id="collapsibleNavId">
-      <ul class="nav nav-tabs menu-content">
-        <li class="nav-item tab">
-          <a href="#tab1" class="nav-link active" data-toggle="tab">الرئيسية</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab2" class="nav-link" data-toggle="tab">كتب docx</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab3" class="nav-link" data-toggle="tab">كتب pdf</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab4" class="nav-link" data-toggle="tab">مذكرات docx</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab5" class="nav-link" data-toggle="tab">مذكرات pdf</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab6" class="nav-link" data-toggle="tab">الكتب المسموعة</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab7" class="nav-link" data-toggle="tab">شروحات الفيديو</a>
-        </li>
-        <li class="nav-item tab">
-          <a href="#tab8" class="nav-link" data-toggle="tab">الأخبار</a>
-        </li>
-      </ul>
-  </div>
-</nav>
-      <!-- start content -->
+      <a class="navbar-brand" href="#">Navbar</a>
+      <button
+        class="navbar-toggler d-lg-none"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavId"
+        aria-controls="collapsibleNavId"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <i class="fa-bars"></i>
+      </button>
+      <div
+        class="collapse navbar-collapse nav-bar-content"
+        id="collapsibleNavId"
+      >
+        <ul class="nav nav-tabs menu-content">
+          <li class="nav-item tab">
+            <a href="#tab1" class="nav-link active" data-toggle="tab"
+              >الرئيسية</a
+            >
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab2" class="nav-link" data-toggle="tab">كتب docx</a>
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab3" class="nav-link" data-toggle="tab">كتب pdf</a>
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab4" class="nav-link" data-toggle="tab">مذكرات docx</a>
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab5" class="nav-link" data-toggle="tab">مذكرات pdf</a>
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab6" class="nav-link" data-toggle="tab"
+              >الكتب المسموعة</a
+            >
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab7" class="nav-link" data-toggle="tab"
+              >شروحات الفيديو</a
+            >
+          </li>
+          <li class="nav-item tab">
+            <a href="#tab8" class="nav-link" data-toggle="tab">الأخبار</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- start content -->
     <main class="tab-content">
       <!-- start tab1 -->
       <section class="tab-pane fade show active" id="tab1">
@@ -91,9 +109,11 @@
           <!-- start services container -->
           <div class="services-container">
             <!-- start service -->
-            <img src="" alt="" />
-            <h3></h3>
-            <p></p>
+            <div class="service">
+              <i class="fa-file-word i"></i>
+              <h3>كتب docx,</h3>
+              <p>الكتب الدراسية بصيغة docx.</p>
+            </div>
             <!-- ind service -->
             <!-- start service -->
             <img src="" alt="" />
@@ -196,4 +216,5 @@
     </footer>
     <script src="js/main.js"></script>
   </body>
+  <script src="data/newz.js"></script>
 </html>

@@ -1,11 +1,3 @@
-function addService(serviceName) {
-  service_container.classList.add("service");
-
-  document.body.appendChild(service_container);
-  services.appendChild(service_container);
-
-  service_container.appendChild(service_name);
-}
 function addNewz(newzHead, newzDetails) {
   const newz = document.getElementById("tab8");
   const newz_container = document.createElement("div");
@@ -561,5 +553,4 @@ addClassContent(
 );
 addPhase("phase6", "المرحلة الثانوية", "tab3");
 addClass("class22", "الصف العاشر", "phase6");
-addClass("class23","الصف الحادي عشر","phase6")
-addClass("class23-1","الحادي عشر أدبي","class23")
+addClass("class23", "الصف الحادي عشر", "phase6");

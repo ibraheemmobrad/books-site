@@ -26,15 +26,8 @@ h6 {
   text-align: center;
 }
 nav .menu-content {
-  background-color: var(--footer_bg_color);
   width: 100%;
   padding: 10px 0px;
-}
-nab .nav-bar-content {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  border-width: 0;
 }
 nav .tab a {
   color: black;
@@ -58,6 +51,9 @@ nav .tab a {
   width: 100%;
   height: 300px;
   margin: 15%;
+}
+.service .i {
+  font-size: 30px;
 }
 .statistics {
   background-color: var(--statistics_bg_color);
@@ -88,17 +84,10 @@ span {
 .class .class-content li {
   margin: 15px;
 }
-.class .class summary {
-  width: 96%;
-  margin: 10px 2%;
-}
-.newz-container {
-  margin: 15px;
-}
 .newz {
   background-color: var(--newz_bg_color);
   padding: 15px;
-  margin-bottom: 15px;
+  margin: 10px;
 }
 .cumming-corses {
   padding: 15px;
