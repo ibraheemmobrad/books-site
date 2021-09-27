@@ -63,7 +63,6 @@ function addClassContent(
   class_content_container.appendChild(class_content_name_container);
   class_content_name_container.appendChild(class_content_name);
 }
-addPhase("phase2", "المرحلة المتوسطة", "tab2");
 addClass("class6", "الصف السادس", "phase2");
 addClass("class7", "الصف السابع", "phase2");
 addClass("class8", "الصف الثامن", "phase2");
@@ -108,9 +107,7 @@ addClassContent(
   "class9",
   "books/المرحلة المتوسطة/الصف التاسع/الفصل الدراسي الأول/اللغة العربية - الصف التاسع - الفصل الدراسي الاول.docx"
 );
-addPhase("phase3", "المرحلة الثانوية", "tab2");
 addClass("class10", "الصف العاشر", "phase3");
-addPhase("phase4", "المرحلة الإبتدائية", "tab3");
 addClass("class13", "الصف الأول", "phase4");
 addClassContent(
   "التربية الإسلامية - الفصل الدراسي الأول",
@@ -351,7 +348,6 @@ addClassContent(
   "class17",
   "https://www.moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/5/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%205%20%D8%AC%201.pdf"
 );
-addPhase("phase5", "المرحلة المتوسطة", "tab3");
 addClass("class18", "الصف السادس", "phase5");
 addClassContent(
   "الإقتصاد المنزلي - الفصل الدراسي الأول",
@@ -403,7 +399,6 @@ addClassContent(
   "class18",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/7/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%207%20%D8%AC%201.pdf"
 );
-addClass("class19", "الصف السابع", "phase5");
 addClassContent(
   "الاقتصاد المنزلي - الفصل الدراسي الأول",
   "class19",
@@ -454,7 +449,6 @@ addClassContent(
   "class19",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/7/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%207%20%D8%AC%201.pdf"
 );
-addClass("class20", "الصف الثامن", "phase5");
 addClassContent(
   "الاقتصاد المنزلي - الفصل الدراسي الأول",
   "class20",
@@ -505,7 +499,7 @@ addClassContent(
   "class20",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/8/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9-%D8%B5%208%20%D8%AC%201.pdf"
 );
-addClass("class21", "الصف التاسع", "phase5");
+
 addClassContent(
   "الاقتصاد المنزلي - الفصل الدراسي الأول",
   "class21",
@@ -551,6 +545,3 @@ addClassContent(
   "class21",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/3%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D9%85%D8%AA%D9%88%D8%B3%D8%B7%D8%A9/9/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%209%20%D8%AC%201.pdf"
 );
-addPhase("phase6", "المرحلة الثانوية", "tab3");
-addClass("class22", "الصف العاشر", "phase6");
-addClass("class23", "الصف الحادي عشر", "phase6");
