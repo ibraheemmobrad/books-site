@@ -63,10 +63,6 @@ function addClassContent(
   class_content_container.appendChild(class_content_name_container);
   class_content_name_container.appendChild(class_content_name);
 }
-addClass("class6", "الصف السادس", "phase2");
-addClass("class7", "الصف السابع", "phase2");
-addClass("class8", "الصف الثامن", "phase2");
-addClass("class9", "الصف التاسع", "phase2");
 addClassContent(
   "الكويت والوطن العربي",
   "class7",
@@ -107,8 +103,6 @@ addClassContent(
   "class9",
   "books/المرحلة المتوسطة/الصف التاسع/الفصل الدراسي الأول/اللغة العربية - الصف التاسع - الفصل الدراسي الاول.docx"
 );
-addClass("class10", "الصف العاشر", "phase3");
-addClass("class13", "الصف الأول", "phase4");
 addClassContent(
   "التربية الإسلامية - الفصل الدراسي الأول",
   "class13",
@@ -149,7 +143,6 @@ addClassContent(
   "class13",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/1/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%201%20%D8%AC%201.pdf"
 );
-addClass("class14", "الصف الثاني", "phase4");
 addClassContent(
   "التربية الإسلامية - الفصل الدراسي الأول",
   "class14",
@@ -190,7 +183,6 @@ addClassContent(
   "class14",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/2/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%202%20%D8%AC%201.pdf"
 );
-addClass("class15", "الصف الثالث", "phase4");
 addClassContent(
   "التربية الإسلامية - الفصل الدراسي الأول",
   "class15",
@@ -236,7 +228,6 @@ addClassContent(
   "class15",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/3/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D8%B1%D8%A2%D9%86%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%B5%203.pdf"
 );
-addClass("class16", "الصف الرابع", "phase4");
 addClassContent(
   "التربية الإسلامية - الفصل الدراسي الأول",
   "class16",
@@ -292,7 +283,6 @@ addClassContent(
   "class16",
   "https://moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/4/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%85%D8%A7%D8%AF%D8%A9%20%D8%A7%D9%84%D9%82%D8%B1%D8%A3%D9%86%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%B5%204.pdf"
 );
-addClass("class17", "الصف الخامس", "phase4");
 addClassContent(
   "التربية الإسلامية - الفصل الدراسي الأول",
   "class17",
@@ -348,7 +338,6 @@ addClassContent(
   "class17",
   "https://www.moe.edu.kw/student/curriculum/%D9%83%D8%AA%D8%A8%20%D8%A7%D9%84%D8%AA%D8%B9%D9%84%D9%8A%D9%85%20%D8%A7%D9%84%D8%B9%D8%A7%D9%85%202021%20-%202022/2%20%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9%20%D8%A7%D9%84%D8%A5%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9/5/%D8%A7%D9%84%D9%81%D8%B5%D9%84%20%D8%A7%D9%84%D8%AF%D8%B1%D8%A7%D8%B3%D9%8A%20%D8%A7%D9%84%D8%A3%D9%88%D9%84/%D9%84%D8%BA%D8%AA%D9%8A%20%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9%20%D8%B5%205%20%D8%AC%201.pdf"
 );
-addClass("class18", "الصف السادس", "phase5");
 addClassContent(
   "الإقتصاد المنزلي - الفصل الدراسي الأول",
   "class18",
