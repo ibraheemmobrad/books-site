@@ -1,3 +1,4 @@
+addClass("class4", "الصف الرابع", "phase1");
 addClass("class5", "الصف الخامس", "phase1");
 addClass("class6", "الصف السادس", "phase2");
 addClass("class7", "الصف السابع", "phase2");
