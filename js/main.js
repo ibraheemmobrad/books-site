@@ -1,5 +1,22 @@
+function addQuestion(questionName, questionAnser, questiongroup) {
+  let questions_container = document.getElementById("tab8");
+  let question_content_container = document.createElement("details");
+  document.body.appendChild(question_content_container);
+  question_content_container.classList.add("question");
+  let question_name_container = document.createElement("summary");
+  questions_container.appendChild(question_name_container);
+  let question_name = document.createTextNode(questionName);
+  question_name_container.appendChild(questionName);
+  let question_anser_container = document.createElement("div");
+  question_content_container.appendChild(question_anser_container);
+  let anser = document.createElement("p");
+  question_anser_container.appendChild(anser);
+  let anser_text = document.createTextNode(questionAnser);
+  anser.appendChild(anser_text);
+}
+addQuestion("test","thes is a test question","groop1")
 function addNewz(newzHead, newzDetails) {
-  const newz = document.getElementById("tab8");
+  const newz = document.getElementById("tab9");
   const newz_container = document.createElement("div");
   const newz_head_container = document.createElement("h2");
   const newz_head = document.createTextNode(newzHead);
