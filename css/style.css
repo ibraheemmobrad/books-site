@@ -77,10 +77,6 @@ span {
 .class .class-content {
   background-color: white;
   list-style-position: outside;
-  text-align: right;
-}
-.class .class-content li {
-  margin: 15px;
 }
 .newz {
   background-color: var(--newz_bg_color);
