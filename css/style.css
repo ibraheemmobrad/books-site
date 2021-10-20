@@ -78,6 +78,10 @@ span {
   background-color: white;
   list-style-position: outside;
 }
+.nut-avilible {
+  text-align: center;
+  padding: 50% 15px;
+}
 .newz {
   background-color: var(--newz_bg_color);
   padding: 15px;
