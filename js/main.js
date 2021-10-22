@@ -1,20 +1,20 @@
-function addQuestion(questionName, questionAnser, questiongroup) {
-  let questions_container = document.getElementById("tab8");
-  let question_content_container = document.createElement("details");
-  document.body.appendChild(question_content_container);
-  question_content_container.classList.add("question");
-  let question_name_container = document.createElement("summary");
-  questions_container.appendChild(question_name_container);
-  let question_name = document.createTextNode(questionName);
-  question_name_container.appendChild(questionName);
-  let question_anser_container = document.createElement("div");
-  question_content_container.appendChild(question_anser_container);
-  let anser = document.createElement("p");
-  question_anser_container.appendChild(anser);
-  let anser_text = document.createTextNode(questionAnser);
-  anser.appendChild(anser_text);
+function addquestion(questionHead, questionDetails) {
+  const questions = document.getElementById("questions");
+  const question_container = document.createElement("section");
+  const question_head_container = document.createElement("h3");
+  const question_head = document.createTextNode(questionHead);
+  const question_details_container = document.createElement("p");
+  const question_details = document.createTextNode(questionDetails);
+
+  question_container.classList.add("question");
+
+  document.body.appendChild(question_container);
+  questions.appendChild(question_container);
+  question_container.appendChild(question_head_container);
+  question_head_container.appendChild(question_head);
+  question_container.appendChild(question_details_container);
+  question_details_container.appendChild(question_details);
 }
-addQuestion("test","thes is a test question","groop1")
 function addNewz(newzHead, newzDetails) {
   const newz = document.getElementById("tab9");
   const newz_container = document.createElement("div");
