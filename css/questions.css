@@ -1,6 +1,5 @@
-.container {
+body {
   background-image: linear-gradient(to left,#4da6ff,#39f,#1a8cff,#0080ff,#0073e6,#06c);
-  min-height: 1000000px;
   width: 100%;
   padding: 15px;
 }
