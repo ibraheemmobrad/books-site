@@ -27,8 +27,8 @@ h6 {
 }
 iframe {
   min-height: 500px;
-  width: 50%;
-  margin: 15px 25%;
+  width: 75%;
+  margin: 15px calc(25%/2%;
   overflow: auto;
 }
 nav .menu-content {
