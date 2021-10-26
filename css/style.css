@@ -69,6 +69,7 @@ nav .tab a {
 }
 .service i {
   color: black;
+  text-align: center;
   width: 100px;
   height: 100px;
   margin: auto;
