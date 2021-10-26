@@ -3,7 +3,7 @@ function addquestion(questionHead, questionDetails) {
   const question_container = document.createElement("section");
   const question_head_container = document.createElement("h3");
   const question_head = document.createTextNode(questionHead);
-  const question_details_container = document.createElement("p");
+  const question_details_container = document.createElement("bre");
   const question_details = document.createTextNode(questionDetails);
 
   question_container.classList.add("question");
