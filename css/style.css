@@ -94,9 +94,19 @@ span {
   height: 50px;
   text-align: center;
 }
-.class .class-content {
+.class .class-contents {
   background-color: white;
-  list-style-position: outside;
+  padding: 10px;
+  list-style-type: none;
+}
+.class .class-content {
+  background-color: #00e639;
+  margin: 0px 0px 5px 0px;
+  height: 50px;
+}
+.class.class-content button {
+width: 100%;
+height: 50px;
 }
 .nut-avilible {
   text-align: center;

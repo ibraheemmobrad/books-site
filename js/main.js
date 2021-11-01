@@ -55,7 +55,7 @@ function addClass(classId, className, classPhase) {
 
   class_container.classList.add("class");
   class_content.setAttribute("id", classId);
-  class_content.classList.add("class-content");
+  class_content.classList.add("class-contents");
 
   document.body.appendChild(class_container);
   classes.appendChild(class_container);
@@ -70,13 +70,16 @@ function addClassContent(
 ) {
   const class_contents = document.getElementById(classContentClass);
   const class_content_container = document.createElement("li");
+  const class_content_button = document.createElement("button");
   const class_content_name_container = document.createElement("a");
   const class_content_name = document.createTextNode(classContentName);
 
+  class_content_container.classList.add("class-content")
   class_content_name_container.setAttribute("href", classContentPath);
 
   document.body.appendChild(class_content_container);
   class_contents.appendChild(class_content_container);
-  class_content_container.appendChild(class_content_name_container);
+  class_content_container.appendChild(class_content_button);
+  class_content_button.appendChild(class_content_name_container);
   class_content_name_container.appendChild(class_content_name);
 }
