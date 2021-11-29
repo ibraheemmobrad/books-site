@@ -1,4 +1,14 @@
+.team-member {
+    display: inline-block;
+    margin: 10px 0px;
+}
 .team-member .team-member-img {
-    width: 100px;
+    width: 25%;
     height: 100px;
+}
+.team-member h3 {
+    width: 75%;
+}
+.team-member p {
+width: 100%;
 }

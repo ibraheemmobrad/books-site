@@ -87,16 +87,21 @@ function addClassContent(
     const team_members =document.getElementById("team-members")
     const team_member_container =document.createElement("section")
     const team_member_img =document.createElement("img")
-    const tean_member_head =document.createElement("h3")
-    const tean_member_details =document.createElement("p)
+    const team_member_head_container =document.createElement("h3")
+    const team_member_head =document.createTextNode(teamMemberName)
+    const team_member_details_container =document.createElement("p")
+    const team_member_details =document.createTextNode(teamMemberDetails)
 
     team_member_container.classList.add("team-member")
     team_member_img.classList.add("team-member-img")
-    tean_member_img.setAttribute("src",teamMemberImg)
+    team_member_img.setAttribute("src",teamMemberImg)
 
     document.body.appendChild(team_member_container)
-    team_member_container.appendChild(teamMemberImg+tean_member_head+tean_member_details)
-    tean_member_head.appendChild(teamMemberName)
-    tean_member_details.appendChild(teamMemberDetails)
+    team_members.appendChild(team_member_container)
+    team_member_container.appendChild(team_member_img)
+    team_member_container.appendChild(team_member_head_container)
+    team_member_container.appendChild(team_member_details_container)
+    team_member_head_container.appendChild(team_member_head)
+    team_member_details_container.appendChild(team_member_details)
   }
 

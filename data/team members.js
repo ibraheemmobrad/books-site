@@ -1,5 +1,5 @@
 addTeamMember(
-  "../img/team members/ibraheem fahad mobrad.jmg",
+  "../img/team members/ibraheem fahad mobrad.jpg",
   "إبراهيم فهد مبرد,",
   "أحب أن أتطور دائمًا, أرجو أن أقدم كل ما يستفيد ويتطور فيه المجتمع."
 );
