@@ -83,3 +83,20 @@ function addClassContent(
   class_content_button.appendChild(class_content_name_container);
   class_content_name_container.appendChild(class_content_name);
 }
+  function addTeamMember (teamMemberImg,teamMemberName,teamMemberDetails) {
+    const team_members =document.getElementById("team-members")
+    const team_member_container =document.createElement("section")
+    const team_member_img =document.createElement("img")
+    const tean_member_head =document.createElement("h3")
+    const tean_member_details =document.createElement("p)
+
+    team_member_container.classList.add("team-member")
+    team_member_img.classList.add("team-member-img")
+    tean_member_img.setAttribute("src",teamMemberImg)
+
+    document.body.appendChild(team_member_container)
+    team_member_container.appendChild(teamMemberImg+tean_member_head+tean_member_details)
+    tean_member_head.appendChild(teamMemberName)
+    tean_member_details.appendChild(teamMemberDetails)
+  }
+
