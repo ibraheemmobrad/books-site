@@ -83,12 +83,14 @@ function addClassContent(
   class_content_button.appendChild(class_content_name_container);
   class_content_name_container.appendChild(class_content_name);
 }
-  function addTeamMember (teamMemberImg,teamMemberName,teamMemberDetails) {
+  function addTeamMember (teamMemberImg,teamMemberName,teamMemberWork,teamMemberDetails) {
     const team_members =document.getElementById("team-members")
     const team_member_container =document.createElement("section")
     const team_member_img =document.createElement("img")
     const team_member_head_container =document.createElement("h3")
     const team_member_head =document.createTextNode(teamMemberName)
+    const team_member_work_container =document.createElement("h3")
+    const team_member_work =document.createTextNode(teamMemberWork)
     const team_member_details_container =document.createElement("p")
     const team_member_details =document.createTextNode(teamMemberDetails)
 
@@ -99,6 +101,7 @@ function addClassContent(
     document.body.appendChild(team_member_container)
     team_members.appendChild(team_member_container)
     team_member_container.appendChild(team_member_img)
+    team_member_container.appendChild(team_member_work_container)
     team_member_container.appendChild(team_member_head_container)
     team_member_container.appendChild(team_member_details_container)
     team_member_head_container.appendChild(team_member_head)
