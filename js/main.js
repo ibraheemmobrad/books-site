@@ -1,7 +1,7 @@
 function addquestion(questionHead, questionDetails) {
   const questions = document.getElementById("questions");
   const question_container = document.createElement("section");
-  const question_head_container = document.createElement("h3");
+  const question_head_container = document.createElement("h2");
   const question_head = document.createTextNode(questionHead);
   const question_details_container = document.createElement("bre");
   const question_details = document.createTextNode(questionDetails);
@@ -110,6 +110,6 @@ function addTeamMember(
   team_member_container.appendChild(team_member_head_container);
   team_member_container.appendChild(team_member_details_container);
   team_member_head_container.appendChild(team_member_head);
-  team_member_work_container.appendChild(teamMemberWork);
+  team_member_work_container.appendChild(team_member_work);
   team_member_details_container.appendChild(team_member_details);
 }
