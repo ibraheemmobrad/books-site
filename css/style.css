@@ -9,7 +9,18 @@
   --footer_bg_color: #00dd80;
   --copy_wroght_color: blue;
 }
-nav i{
+html {
+  direction: rtl;
+}
+body {
+  color: white;
+}
+h1,
+h2,
+h3h4 h5h6 {
+  text-align: center;
+}
+nav i {
   color: black;
 }
 nav .menu-content {
@@ -90,10 +101,10 @@ span {
 .class .class-content button {
   background-color: #00e639;
   text-align: right;
-width: 100%;
-height: 50px;
+  width: 100%;
+  height: 50px;
 }
-.class .class-content button a{
+.class .class-content button a {
   color: black;
 }
 .nut-avilible {
@@ -133,7 +144,6 @@ height: 50px;
 }
 .footer .copy-wright * {
   display: inline;
-
 }
 .footer .copy-wright span {
   color: var(--copy_wright_color);
