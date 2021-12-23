@@ -9,27 +9,6 @@
   --footer_bg_color: #00dd80;
   --copy_wroght_color: blue;
 }
-html {
-  direction: rtl;
-}
-body {
-  color: white;
-  position: relative;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  margin: 10px 0px;
-  text-align: center;
-}
-iframe {
-  min-height: 500px;
-  width: 100%;
-  overflow: auto;
-}
 nav i{
   color: black;
 }
@@ -154,6 +133,7 @@ height: 50px;
 }
 .footer .copy-wright * {
   display: inline;
+
 }
 .footer .copy-wright span {
   color: var(--copy_wright_color);
