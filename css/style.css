@@ -1,7 +1,5 @@
 :root {
   --nav_bg_color: #c00;
-  --menu_bg_color: ;
-  --sub_menu_bg_color: ;
   --header_bg_color: #1a8cff;
   --statistics_bg_color: #df80ff;
   --newz_bg_color: red;
@@ -18,7 +16,7 @@ body {
 h1,
 h2,
 h3h4 h5h6 {
-  text-align: center;
+  text-align: center
 }
 nav i {
   color: black;
@@ -40,14 +38,29 @@ nav .tab a {
   padding: 15px;
   margin-bottom: 10px;
 }
-.main-header .advertisement {
-  background-color: var(--footer_bg_color);
+.main-header .todayAdvertisement {
+  background-color: #333;
   width: 75%;
   margin: auto;
   padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 .main-header .advertisement iframe {
   height: 150px;
+}
+.main-header .todayAdvertisement p{
+  text-align: center;
+}
+.main-header .todayAdvertisement .advertisementLink {
+  background-color: var(--footer_bg_color);
+  color: white;
+  font-size: 10;
+  text-align: center;
+  text-decoration: none;
+  width: 25%;
+  height: 30px;
+  align-self: center;
 }
 .services {
   background-color: white;
