@@ -76,7 +76,7 @@ iframe {
   height: 100%;
 }
 .service {
-  width: 100%;
+  width: 500px;
   height: 300px;
   margin: 10px 0px;
 }
@@ -125,6 +125,7 @@ span {
   height: 50px;
 }
 .class .class-content button a {
+  width: 100%;
   color: black;
 }
 .nut-avilible {
