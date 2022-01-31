@@ -7,9 +7,6 @@
   --footer_bg_color: #00dd80;
   --copy_wroght_color: blue;
 }
-* {
-  box-sizing: border-box;
-}
 html {
   direction: rtl;
 }
