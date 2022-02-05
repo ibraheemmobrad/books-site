@@ -9,14 +9,19 @@
 }
 html {
   direction: rtl;
+  scroll-behavior: smooth;
 }
 body {
   color: white;
+  box-sizing: border-box;
 }
 h1,
 h2,
-h3h4 h5h6 {
-  text-align: center
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
 }
 nav i {
   color: black;
@@ -26,7 +31,7 @@ nav .menu-content {
   padding: 10px 0px;
 }
 nav .tab {
-  width: calc(96%/4);
+  width: calc(96% / 4);
   margin-left: 1%;
 }
 nav .tab a {
@@ -51,7 +56,7 @@ nav .tab a {
 .main-header .advertisement iframe {
   height: 150px;
 }
-.main-header .todayAdvertisement p{
+.main-header .todayAdvertisement p {
   text-align: center;
 }
 .main-header .todayAdvertisement .advertisementLink {
@@ -113,8 +118,8 @@ span {
 .class .class-content {
   background-color: white;
   padding: 10px;
-display: flex;
-flex-direction: row;
+  display: flex;
+  flex-direction: row;
   margin-bottom: 10px;
   height: 50px;
 }
