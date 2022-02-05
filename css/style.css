@@ -25,10 +25,12 @@ nav .menu-content {
   width: 100%;
   padding: 10px 0px;
 }
+nav .tab {
+  width: calc(96%/4);
+  margin-left: 1%;
+}
 nav .tab a {
   color: black;
-  width: calc(97%/4);
-  margin-left: 1%;
   height: 50px;
   font-size: 10px;
   text-decoration: none;
@@ -104,25 +106,25 @@ span {
   text-align: center;
 }
 .class .class-contents {
-  background-color: white;
+  background-color: #99ccff;
   padding: 10px;
   list-style-type: none;
 }
 .class .class-content {
-  background-color: #00e639;
+  background-color: white;
+display: flex;
+flex-direction: row;
   text-decoration: none;
-  margin: 0px 0px 5px 0px;
+  margin-bottom: 10px;
   height: 50px;
 }
-.class .class-content button {
-  background-color: #00e639;
-  text-align: right;
-  width: 100%;
-  height: 50px;
+.class .class-content p {
+  width: 75%;
 }
-.class .class-content button a {
-  width: 100%;
-  color: black;
+.class .view {
+  background-color: #ff3333;
+  width: 25%;
+  height: 50px;
 }
 .nut-avilible {
   text-align: center;

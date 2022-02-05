@@ -70,18 +70,21 @@ function addClassContent(
 ) {
   const class_contents = document.getElementById(classContentClass);
   const class_content_container = document.createElement("li");
-  const class_content_button = document.createElement("button");
-  const class_content_name_container = document.createElement("a");
+  const class_content_name_container = document.createElement("p");
   const class_content_name = document.createTextNode(classContentName);
+  const classContentView =document.createElement("a")
+  const classContentViewContent =document.createTextNode("مشاهدة")
 
   class_content_container.classList.add("class-content");
-  class_content_name_container.setAttribute("href", classContentPath);
+  classContentView.classList.add("view")
+  classContentView.setAttribute("href", classContentPath);
 
   document.body.appendChild(class_content_container);
   class_contents.appendChild(class_content_container);
-  class_content_container.appendChild(class_content_button);
-  class_content_button.appendChild(class_content_name_container);
+  class_content_container.appendChild(class_content_name_container)
   class_content_name_container.appendChild(class_content_name);
+  class_content_container.appendChild(classContentView)
+  classContentView.appendChild(classContentViewContent)
 }
 function addTeamMember(
   teamMemberImg,
