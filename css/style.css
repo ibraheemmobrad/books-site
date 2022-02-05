@@ -27,7 +27,7 @@ nav .menu-content {
 }
 nav .tab a {
   color: black;
-  width: clac(97%/3);
+  width: calc(97%/4);
   margin-left: 1%;
   height: 50px;
   font-size: 10px;
@@ -55,7 +55,7 @@ nav .tab a {
 .main-header .todayAdvertisement .advertisementLink {
   background-color: var(--footer_bg_color);
   color: white;
-  font-size: 10;
+  font-size: 10px;
   text-align: center;
   text-decoration: none;
   width: 50%;
@@ -70,17 +70,16 @@ nav .tab a {
 }
 iframe {
   width: 100%;
-  height: 100%;
+  height: 500px;
 }
 .service {
-  width: 500px;
+  width: 100%;
   height: 300px;
   margin: 10px 0px;
 }
 .service i {
   color: black;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-size: 100px;
 }
 .statistics {
