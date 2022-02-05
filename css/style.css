@@ -114,15 +114,18 @@ span {
   background-color: white;
 display: flex;
 flex-direction: row;
-  text-decoration: none;
   margin-bottom: 10px;
   height: 50px;
 }
 .class .class-content p {
+  color: black;
   width: 75%;
 }
 .class .view {
   background-color: #ff3333;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
   width: 25%;
   height: 50px;
 }
