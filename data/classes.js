@@ -21,3 +21,9 @@ addClass("class21", "الصف التاسع", "phase5");
 // addClass("class23", "الصف الحادي عشر علمي", "phase6");
 // addClass("class23", "الصف الثاني عشر إدبي", "phase6");
 // addClass("class23", "الصف الثاني عشر علمي", "phase6");
+addClass("test","المواد التجريبية","phase5")
+addClass("m1","المادة1","test")
+addClass("m2","المادة2","test")
+addClass("m3","المادة3","test")
+addClass("m4","المادة4","test")
+addClass("m5","المادة5","test")
